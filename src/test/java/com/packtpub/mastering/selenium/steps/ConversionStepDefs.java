@@ -33,6 +33,7 @@ public class ConversionStepDefs {
 
     @When("^I input the value of Fahrenheit as (\\d+).(\\d+) in text field$")
     public void I_input_the_value_of_Fahrenheit_as_in_text_field(int arg1, int arg2) throws Throwable {
+        //input Fahrenheit value
         temperatureConverterPage.inputFahrenheit(98.6);
     }
 
